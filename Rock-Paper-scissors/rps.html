@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<h2>Rock Paper Scissors</h2>
+
+<div id="select-buttons">
+    <button disabled class="selection" id="rock" data-choice="rock">&#9994;</button>
+    <button disabled class="selection" id="paper" data-choice="paper">&#9995;</button>
+    <button disabled class="selection" id="scissors" data-choice="scissors">&#9996;</button>
+    <p id="wish">Make a wish</p>
+</div>
+<div id="score">
+    <div id="computer">
+        <p>Computer</p>
+        <span id="computer-score-span"></span>
+        <div id="computer-picked"></div>
+
+
+    </div>
+        
+    <div id="player">
+        <p id="user-label">Player</p>
+        <span id="player-score-span"></span>
+        <div id="player-picked"></div>
+
+    </div>
+</div>
+<div id="choice-view">
+
+
+</div>
+<div id="container">
+    <p id="result"></p>
+    <button class="play" id="play-button">play</button>
+</div>
+
+
+<body>
+    <script src="rps2.js"></script>
+</body>
+
+</html>

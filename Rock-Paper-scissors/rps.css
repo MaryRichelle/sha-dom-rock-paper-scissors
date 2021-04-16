@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border : 2px solid blueviolet; */
+}
+body { 
+    background-image: url(glaxy.jpeg);
+    background-size: cover;
+    color: blanchedalmond;
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+}
+h2 {   
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+
+}
+#select-buttons{
+    width: 50%;
+    margin: auto;
+}
+#wish {
+    text-align: center;
+    color: white;
+    /* margin-left: 40%; */
+}
+.selection{
+    
+    margin: 10px;
+    margin-left: 12px;  
+   padding:  15px;
+    font-size: 60px;
+    border: 3px solid  rgb(15, 15, 15);
+    border-radius: 50%; 
+}
+.selection:hover{
+    background-color: rgb(243, 212, 35);
+    border: 3px solid rgb(228, 17, 17);
+    box-sizing: border-box;
+
+}
+
+#score{
+    margin-top: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+  
+ #player  {
+    position: absolute;
+    width: 25%;
+    color: rgb(31, 10, 151);
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid  rgb(15, 15, 15);
+
+
+}
+    #computer  {
+        width: 27%;
+        position: absolute;
+        right: 0px;
+        color: rgb(31, 10, 151);
+
+        margin: 10px;
+        background-color: white;
+        border-radius: 5px;
+        border: 3px solid  rgb(15, 15, 15);
+ }
+   
+
+    #container{
+        width: 40%;
+        margin: 20px auto;
+        position: relative;
+        top: 50%;
+
+
+    }
+    #result{
+        position: absolute;
+        font-size: 15px;
+        /* top: 5%; */
+        left: 30%;
+        color: red;
+            }
+    #play-button{
+        font-family: 'Zen Dots', cursive;
+         background-color: cornsilk;
+        border-radius: 4px;
+        width:70px ;
+        text-align: center;
+        font-size: 8px;
+        padding: 5px;
+        color: rgb(228, 138, 138);
+        position: relative;
+          top: 50%;
+        left: 40%; 
+        margin: 40px 0;
+
+    }
+    #play-button:hover{
+        background-color: rgb(243, 212, 35);
+        border: 3px solid rgb(228, 17, 17);
+        box-sizing: border-box;
+    
+    }
+    
+
+    
